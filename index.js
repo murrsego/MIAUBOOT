@@ -21,10 +21,10 @@ client.on("guildMemberAdd", (member) => {
   if (!channel) return;
 
   channel.send({
-    content: `👋 Welcome ${member}! We're glad to have you here!`,
+    content: `👋 Welcome ${member}!   We're glad to have you here!`,
     embeds: [
       {
-        image: { url: "https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExcDMybzQ3aGp3c3g3djlyMzgzaWQzeG5pcHI1djZneGk3MmM5eHBpMyZlcD12MV9naWZzX3NlYXJjaCZjdD1n/l3vQXT7XfpUEq2Lkc/giphy.gif" }
+        image: { url: "https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExbDl6ZmM3ajg4bnlsa2s2cjBqaHZuZ2NldmYwbjA0NDkwMjR2NHJubyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/lJNoBCvQYp7nq/giphy.gif" }
       }
     ]
   });
